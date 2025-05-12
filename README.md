@@ -1,11 +1,11 @@
 # Chuck Norris Facts CLI
 
-A simple command-line tool that fetches random Chuck Norris facts from the Chuck Norris API.
+A simple command-line tool that fetches random Chuck Norris facts.
 You can receive facts anywhere.
 
 ## Features
 
-- Fetch random Chuck Norris facts from the [Chuck Norris API](https://api.chucknorris.io/)
+- Fetch random Chuck Norris facts from the [Chuck Norris Jokes Api](https://api.chucknorris.io/)
 - Replace "Chuck Norris" with any name of your choice
 - Easy to use from the command line
 - Support only Windows now
