@@ -3,6 +3,12 @@
 A simple command-line tool that fetches random Chuck Norris facts.
 You can receive facts anywhere.
 
+
+## Who is he?
+
+[https://en.wikipedia.org/wiki/Chuck_Norris](https://en.wikipedia.org/wiki/Chuck_Norris)
+
+
 ## Features
 
 - Fetch random Chuck Norris facts from the [Chuck Norris Jokes Api](https://api.chucknorris.io/)
