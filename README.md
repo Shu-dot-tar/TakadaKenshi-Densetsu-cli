@@ -12,7 +12,7 @@ You can receive facts anywhere.
 ## Features
 
 - Fetch random Chuck Norris facts from the [Chuck Norris Jokes Api](https://api.chucknorris.io/)
-- Replace "Chuck Norris" with any name of your choice
+- Able to replace "Chuck Norris" with any name of your choice
 - Easy to use from the command line
 - Support only Windows now
 
