@@ -1,63 +1,64 @@
-# Chuck Norris Facts CLI
+# 高田健志伝説 CLI
 
-A simple command-line tool that fetches random Chuck Norris facts.
-You can receive facts anywhere.
-
-
-## Who is he?
-
-[https://en.wikipedia.org/wiki/Chuck_Norris](https://en.wikipedia.org/wiki/Chuck_Norris)
+高田健志の伝説をコマンドラインから楽しめるシンプルなツールです。
+どこにいても高田健志の伝説を受け取ることができます。
 
 
-## Features
+## 高田健志とは？
 
-- Fetch random Chuck Norris facts from the [Chuck Norris Jokes Api](https://api.chucknorris.io/)
-- Able to replace "Chuck Norris" with any name of your choice
-- Easy to use from the command line
-- Support only Windows now
+日本のインターネット文化において伝説となった架空の人物です。
+[https://dic.nicovideo.jp/a/%E9%AB%98%E7%94%B0%E5%81%A5%E5%BF%97](https://dic.nicovideo.jp/a/%E9%AB%98%E7%94%B0%E5%81%A5%E5%BF%97)
 
-## Installation
 
-1. Make sure Python is installed on your system
-2. Clone this repo
-3. Run the setup script:
+## 特徴
+
+- [高田健志伝説API](https://tools.ic731.net/api/kenshi/)からランダムな伝説を取得
+- 「高田健志」を任意の名前に置き換え可能
+- コマンドラインから簡単に使用可能
+- 現在はWindows専用対応
+
+## インストール
+
+1. Pythonがシステムにインストールされていることを確認
+2. このリポジトリをクローン
+3. セットアップスクリプトを実行:
     ```
     .\setup.bat
     ```
-4. The setup will:
-    - Add the program directory to your PATH environment variable
-    - Create the necessary files for command-line execution
+4. セットアップにより:
+    - プログラムディレクトリがPATH環境変数に追加されます
+    - コマンドライン実行に必要なファイルが作成されます
 
-## Usage
+## 使用方法
 
-### Basic Usage
+### 基本的な使い方
 ```
-fact
-```
-
-This will display a random Chuck Norris fact.
-
-### Custom Name
-```
-fact "Kenshi Takada"
+densetsu
 ```
 
-This will display a random fact with "Chuck Norris" replaced by "Kenshi Takada".
+これにより、ランダムな高田健志の伝説が表示されます。
 
-## Requirements
+### カスタム名
+```
+densetsu "山田太郎"
+```
+
+これにより、「高田健志」を「山田太郎」に置き換えた伝説が表示されます。
+
+## 必要条件
 
 - Python 3.x
-- `requests` library (automatically installed during setup)
+- `requests`ライブラリ（セットアップ中に自動的にインストールされます）
 
-## How It Works
+## 仕組み
 
-The program connects to the Chuck Norris API, fetches a random fact, and displays it in your terminal. When you provide a name, it replaces all occurrences of "Chuck Norris" with that name.
+このプログラムは高田健志伝説APIに接続し、ランダムな伝説を取得してターミナルに表示します。名前を指定すると、「高田健志」の全ての出現箇所がその名前に置き換えられます。
 
-## Troubleshooting
+## トラブルシューティング
 
-- If you see `'python' is not recognized as an internal or external command`, make sure Python is installed and added to your PATH.
-- You may need to restart your command prompt after installation for PATH changes to take effect.
+- `'python' is not recognized as an internal or external command`というエラーが表示される場合は、Pythonがインストールされ、PATHに追加されていることを確認してください。
+- インストール後にPATHの変更を反映させるには、コマンドプロンプトを再起動する必要がある場合があります。
 
-## License
+## ライセンス
 
-This project is open source and available under the MIT License.
+このプロジェクトはオープンソースであり、MITライセンスの下で利用可能です。
