@@ -1,4 +1,4 @@
-# Chuck Norris Fact CLI
+# Chuck Norris Facts CLI
 
 A simple command-line tool that fetches random Chuck Norris facts from the Chuck Norris API.
 You can receive facts anywhere.
